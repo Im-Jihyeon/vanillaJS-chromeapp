@@ -6,24 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="\css\index.css" />
 
 </head>
 
 <body>
-  <div class="js-clock">
-    <h1 class="js-title">00:00</h1>
-  </div>
-  <form class="js-form form">
-    <input type="text" class="js-txtInput" placeholder="What is your name?" />
-  </form>
-  <h4 class="js-greetings greetings"></h4>
-  <form class="js-toDoForm">
-    <input type="text" placeholder="Write a to do" />
-  </form>
-  <ul class="js-toDoList">
+  <section class="center">
+    <!-- 시계 -->
+    <div class="js-clock">
+      <h3 class="js-title clockText">00:00</h3>
+    </div>
 
-  </ul>
+    <!-- 이름 -->
+    <div class="name">
+      <h4 class="js-greetings greetings"></h4>
+      <form class="js-form form">
+        <input type="text" class="js-txtInput" placeholder="What is your name?" />
+      </form>
+    </div>
+
+    <!-- toDoList -->
+    <form class="js-toDoForm toDoForm">
+      <input type="text" placeholder="Write a to do" />
+    </form>
+    <ul class="js-toDoList toDoList"></ul>
+  </section>
+
 
   <script src="clock.js"></script>
   <script src="gretting.js"></script>

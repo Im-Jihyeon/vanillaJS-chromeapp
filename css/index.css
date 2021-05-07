@@ -1,0 +1,48 @@
+@import "center.css";
+@import "todo.css";
+
+body{
+  background-color: #ecf0f1;
+  color: #34495e;
+}
+
+.clockText{
+  font-family: 'LAB디지털';
+  text-align: center;
+  font-size: 3em;
+}
+
+
+.btn{
+  cursor: pointer;
+}
+
+.clicked{
+  color: #7f8c8d;
+}
+
+.form,
+.greetings{
+  display: none;
+}
+
+.showing{
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'LAB디지털';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
